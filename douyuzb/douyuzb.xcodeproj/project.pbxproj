@@ -14,6 +14,7 @@
 		6E67DAAA236BCCB50099A987 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E67DAA8236BCCB50099A987 /* LaunchScreen.storyboard */; };
 		6E67DAB5236BCCB50099A987 /* douyuzbTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E67DAB4236BCCB50099A987 /* douyuzbTests.swift */; };
 		6E67DAC0236BCCB50099A987 /* douyuzbUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E67DABF236BCCB50099A987 /* douyuzbUITests.swift */; };
+		6E67DACE236C04E00099A987 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E67DACD236C04E00099A987 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		6E67DABB236BCCB50099A987 /* douyuzbUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = douyuzbUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E67DABF236BCCB50099A987 /* douyuzbUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = douyuzbUITests.swift; sourceTree = "<group>"; };
 		6E67DAC1236BCCB50099A987 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E67DACD236C04E00099A987 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				6E67DAA6236BCCB50099A987 /* Assets.xcassets */,
 				6E67DAA8236BCCB50099A987 /* LaunchScreen.storyboard */,
 				6E67DAAB236BCCB50099A987 /* Info.plist */,
+				6E67DACD236C04E00099A987 /* Images.xcassets */,
 			);
 			path = douyuzb;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E67DAAA236BCCB50099A987 /* LaunchScreen.storyboard in Resources */,
+				6E67DACE236C04E00099A987 /* Images.xcassets in Resources */,
 				6E67DAA7236BCCB50099A987 /* Assets.xcassets in Resources */,
 				6E67DAA5236BCCB30099A987 /* Main.storyboard in Resources */,
 			);
@@ -432,6 +436,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 37FV56W2N2;
 				INFOPLIST_FILE = douyuzb/Info.plist;
@@ -450,6 +455,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 37FV56W2N2;
 				INFOPLIST_FILE = douyuzb/Info.plist;
